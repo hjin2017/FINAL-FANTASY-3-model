@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{88d8bf61-4dec-4a57-9538-1e6f84175ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\singletonBase">
+      <UniqueIdentifier>{12e643b2-c599-4819-be4b-d22f1a54f590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{2cc35890-ace1-41b4-8550-44dbab90651c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{06cabdba-82c8-4de9-9dd4-21f716e723ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\UTIL">
+      <UniqueIdentifier>{0ede7c02-f183-4c10-9257-14b143894e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{f11e8cd0-d460-40a6-bba8-5cac6dd4c661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{dc6267ba-5bf2-41d4-bce1-d750913f1432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{8b29bfdc-f514-4267-9ebd-1f5f1666e9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{4d048ddd-cc91-447d-a018-770c65129bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{00f9190f-5e48-45b6-a6b9-6583eb96974a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{d30754ec-6dcb-4a66-90bc-0174547f501e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\loading">
+      <UniqueIdentifier>{e7060054-8a13-4dd3-b203-fb190de34627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\map_tool">
+      <UniqueIdentifier>{8ec6908a-ed5f-407a-85bf-adca82fe9c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\map_tool\database">
+      <UniqueIdentifier>{8f44d9cb-0af3-4c0a-aecf-9163ba00631f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\menu">
+      <UniqueIdentifier>{878d248c-ddb6-410e-a9e4-482ce5fcecdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\play">
+      <UniqueIdentifier>{a2dc7c8c-6580-4a21-ac5f-64b6a070b754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\test">
+      <UniqueIdentifier>{9f9aed41-89a3-4024-ae16-99f0d874e858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\map_tool\drag">
+      <UniqueIdentifier>{12f6268d-cff3-4f1f-9f75-dc1c3999ece8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\play\player">
+      <UniqueIdentifier>{8e8412a6-df88-4e77-bbd5-41b2b5c6e950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\map_tool\button">
+      <UniqueIdentifier>{b183354c-8bf4-465e-81da-d5d22b154439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\inven">
+      <UniqueIdentifier>{06c927d3-3e17-4f10-bdf4-602c9a4d8ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\inven\tool">
+      <UniqueIdentifier>{8820082e-920e-4fba-a029-69bfee074c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\inven\equipment">
+      <UniqueIdentifier>{28ab40b7-3021-47b9-9642-537332dd13eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\inven\state">
+      <UniqueIdentifier>{afb92d7b-85d7-4b50-8390-500055daa306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\inven\job">
+      <UniqueIdentifier>{4334c551-5953-489c-be89-1158c93f7132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\play\obj">
+      <UniqueIdentifier>{e83a7b52-7e43-4de0-a303-e934177da8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\play\obj\npc">
+      <UniqueIdentifier>{48350cb9-eaad-42d9-b0f6-4214c489e411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\battle">
+      <UniqueIdentifier>{b5b1c24c-635f-45c7-bc57-88fcc9741f9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>MainGame\map_tool\database</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>2DGameFramework\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_node.h">
+      <Filter>MainGame\map_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="txttest.h">
+      <Filter>MainGame\test</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>MainGame\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="inve.h">
+      <Filter>MainGame\inven</Filter>
+    </ClInclude>
+    <ClInclude Include="bag.h">
+      <Filter>MainGame\inven\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="character_hp_mp.h">
+      <Filter>MainGame\inven\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="inven_bag.h">
+      <Filter>MainGame\inven\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="inven_equipment.h">
+      <Filter>MainGame\inven\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="inven_state.h">
+      <Filter>MainGame\inven\state</Filter>
+    </ClInclude>
+    <ClInclude Include="inven_job.h">
+      <Filter>MainGame\inven\job</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>MainGame\play\player</Filter>
+    </ClInclude>
+    <ClInclude Include="map_tool_scene.h">
+      <Filter>MainGame\map_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="map_creat.h">
+      <Filter>MainGame\map_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="drag.h">
+      <Filter>MainGame\map_tool\drag</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_npc.h">
+      <Filter>MainGame\play\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_npc_box.h">
+      <Filter>MainGame\play\obj\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_npc_M.h">
+      <Filter>MainGame\play\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>MainGame\map_tool\button</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_npc_stand.h">
+      <Filter>MainGame\play\obj\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="salesman_scene.h">
+      <Filter>MainGame\play\obj</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_npc_door.h">
+      <Filter>MainGame\play\obj\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="map_tool_obj_darw.h">
+      <Filter>MainGame\map_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="play_scene.h">
+      <Filter>MainGame\play</Filter>
+    </ClInclude>
+    <ClInclude Include="inven_function.h">
+      <Filter>MainGame\test</Filter>
+    </ClInclude>
+    <ClInclude Include="Save_load.h">
+      <Filter>MainGame\test</Filter>
+    </ClInclude>
+    <ClInclude Include="temp_node.h">
+      <Filter>MainGame\test</Filter>
+    </ClInclude>
+    <ClInclude Include="text_box.h">
+      <Filter>MainGame\test</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_scene.h">
+      <Filter>MainGame\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>MainGame\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="b_player.h">
+      <Filter>MainGame\battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>MainGame\map_tool\database</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>2DGameFramework\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="txttest.cpp">
+      <Filter>MainGame\test</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_scene.cpp">
+      <Filter>MainGame\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="drag.cpp">
+      <Filter>MainGame\map_tool\drag</Filter>
+    </ClCompile>
+    <ClCompile Include="inve.cpp">
+      <Filter>MainGame\inven</Filter>
+    </ClCompile>
+    <ClCompile Include="character_hp_mp.cpp">
+      <Filter>MainGame\inven\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="bag.cpp">
+      <Filter>MainGame\inven\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="inven_bag.cpp">
+      <Filter>MainGame\inven\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="inven_equipment.cpp">
+      <Filter>MainGame\inven\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="inven_state.cpp">
+      <Filter>MainGame\inven\state</Filter>
+    </ClCompile>
+    <ClCompile Include="inven_job.cpp">
+      <Filter>MainGame\inven\job</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>MainGame\play\player</Filter>
+    </ClCompile>
+    <ClCompile Include="map_tool_scene.cpp">
+      <Filter>MainGame\map_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="map_creat.cpp">
+      <Filter>MainGame\map_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_npc.cpp">
+      <Filter>MainGame\play\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_npc_M.cpp">
+      <Filter>MainGame\play\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_npc_box.cpp">
+      <Filter>MainGame\play\obj\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>MainGame\map_tool\button</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_npc_stand.cpp">
+      <Filter>MainGame\play\obj\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="salesman_scene.cpp">
+      <Filter>MainGame\play\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_npc_door.cpp">
+      <Filter>MainGame\play\obj\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="map_tool_obj_darw.cpp">
+      <Filter>MainGame\map_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="play_scene.cpp">
+      <Filter>MainGame\play</Filter>
+    </ClCompile>
+    <ClCompile Include="Save_load.cpp">
+      <Filter>MainGame\test</Filter>
+    </ClCompile>
+    <ClCompile Include="temp_node.cpp">
+      <Filter>MainGame\test</Filter>
+    </ClCompile>
+    <ClCompile Include="text_box.cpp">
+      <Filter>MainGame\test</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_scene.cpp">
+      <Filter>MainGame\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>MainGame\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="b_player.cpp">
+      <Filter>MainGame\battle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
